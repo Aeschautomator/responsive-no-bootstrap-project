@@ -1,0 +1,186 @@
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+.container {
+    
+    margin: auto;
+
+
+
+}
+.contact {
+    margin:25px;
+    background-color:white;
+    border:1px black;
+    width:580px;
+    padding: 1rem;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+}
+.panel {    
+    margin-left:25px;
+    margin-right:25px;
+
+}
+header {
+   background:#ffffff;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height:1.4;
+
+}
+.logo {
+    font-family:"Georgia";
+    background:#4aaaa5;
+    color:white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: inline-block;
+    float:left;
+    
+}
+a {
+    text-decoration: none;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+    
+}
+li  {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+    padding-top: 15px;
+    margin-right: 20px;
+    background-color:white;
+
+}
+.nav {
+     float: right;
+     display: inline-block;
+     padding-left:10px;
+     padding-right:25px;
+     background-color:white;
+
+}
+
+
+.content {
+margin: 0 auto;
+
+}
+.wrapper {
+margin: 0 auto;
+
+height: 642px;
+
+}
+h2 {
+    color:#4aaaa5;
+   text-align:left;
+    background: white;
+
+
+}
+#textblock {
+    background: #ffffff;
+    
+   
+    margin: 15px;
+}
+Name {
+    width:100%;
+    align: left;
+}
+email {
+    width:100%;
+}
+.inputfield {
+   text-align: left;
+   margin-bottom:1rem;
+   padding:.3rem;
+   width:100%;
+   
+}
+.hr {
+    
+    align:center;
+}
+lion {
+    align: center;
+
+}
+Self-portrait{
+    align: center;
+}
+form {
+    text-align: left;
+}
+.button {
+    background:#4aaaa5;
+    color: white;
+    justify-content: flex-start;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding:5px 10px;
+}
+.label {
+    
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+.footer-copyright {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+/* that's medium */
+@media screen and (max-width: 768px) {
+    body { background-color: grey;
+    
+    
+    
+    }
+    .contact{
+        width: 90%;
+        
+    }
+    
+    
+}
+    /* that's small */
+ @media screen and (max-width: 640px) {
+  
+   header {
+    padding-left: 0;
+    padding-right: 0;
+    
+   }
+   .logo {
+       display:block;
+       width:100%;
+       background: #4aaaa5;
+       padding-top: 5%;
+   }
+   .nav {
+       display:block;
+       float:none;
+       text-align: center;
+       padding-left: 0;
+       padding-right: 0;
+       width:100%;
+       background-color:white;
+       margin-left:140px;
+       margin-right:auto;
+   }
+  .li {
+     
+      
+  }
+}
